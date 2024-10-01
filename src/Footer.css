@@ -1,0 +1,36 @@
+/* Footer.css */
+.divContainer {
+    width: 100%;
+    background-color: #333;
+    /* Fondo oscuro */
+    padding: 20px 0;
+    /* Espaciado interno en la parte superior e inferior */
+    position: relative;
+    bottom: 0;
+}
+
+footer {
+    text-align: center;
+    /* Centrar el texto */
+}
+
+footer p {
+    color: #fff;
+    /* Texto blanco */
+    font-size: 1rem;
+    /* Tamaño de la fuente */
+    margin: 0;
+    /* Sin margen adicional */
+}
+
+footer p a {
+    color: #ffa500;
+    /* Si usas un enlace en el pie de página */
+    text-decoration: none;
+    /* Sin subrayado */
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    /* Subrayado en hover */
+}

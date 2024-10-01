@@ -1,0 +1,61 @@
+/* CallToAction.css */
+.call-to-action-container {
+    background-color: #f9f9f9;
+    /* Color de fondo suave */
+    padding: 40px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Centrar el contenido */
+    border: 2px solid #ffa500;
+    /* Borde naranja */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+    margin: 20px auto;
+    /* Espaciado externo y centrado horizontal */
+    max-width: 600px;
+    /* Ancho máximo */
+}
+
+.call-to-action-title {
+    font-size: 2.5rem;
+    /* Tamaño de fuente grande */
+    color: #333;
+    /* Color del texto */
+    margin-bottom: 20px;
+    /* Espacio debajo del título */
+}
+
+.call-to-action-text {
+    font-size: 1.2rem;
+    /* Tamaño del texto */
+    color: #666;
+    /* Color del texto */
+    margin-bottom: 30px;
+    /* Espacio debajo del párrafo */
+}
+
+.call-to-action-button {
+    background-color: #ffa500;
+    /* Color de fondo del botón */
+    color: white;
+    /* Color del texto del botón */
+    padding: 15px 30px;
+    /* Espaciado interno */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    font-size: 1.2rem;
+    /* Tamaño del texto */
+    cursor: pointer;
+    /* Cursor de mano al pasar por encima */
+    transition: background-color 0.3s ease;
+    /* Transición suave */
+}
+
+.call-to-action-button:hover {
+    background-color: #ff8c00;
+    /* Color al hacer hover */
+}
